@@ -1,0 +1,49 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: #000000;
+  font-weight: 300;
+  font-family: "VT323", monospace;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+a {
+  text-decoration: none;
+  border: 0px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 480px;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("VT323.woff2") format("woff2"), url("VT323.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
