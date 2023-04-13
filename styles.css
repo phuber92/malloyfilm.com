@@ -32,7 +32,9 @@ h2 {
 }
 
 .icon {
-  margin: 5px
+  margin: 5px;
+  width: 32px;
+  height: 32px;
 }
 
 .image {
