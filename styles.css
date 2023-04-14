@@ -1,11 +1,11 @@
 html {
   font-size: 10px;
+  width: 100%;
 }
 
 body {
   color: #000000;
   font-family: "VT323", monospace;
-  font-weight: 300;
 }
 
 h1 {
@@ -40,9 +40,9 @@ h2 {
 .image {
   width: clamp(200px, 90%, 480px);
   height: auto;
-  margin: 10px
+  margin: 10px;
 }
 
 .text {
-  margin: 10px
+  margin: 10px;
 }
